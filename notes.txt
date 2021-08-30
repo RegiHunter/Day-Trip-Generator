@@ -1,0 +1,38 @@
+// MVP - Most Viable Product
+
+Show the length of the array (number of elements)
+console.log('List of Destination length: ', listOfDestinations.length);
+//------------------------------------------------------------------
+
+// Get the length of a string (number of characters)
+let someString = 'This is a string!'
+console.log('Length of someString: ', someString.length);
+//------------------------------------------------------------------
+
+// Get the character at a certain index of a string
+console.log('The character at the 3 index of someString is: ', someString.charAt(3));
+//------------------------------------------------------------------
+Write a function
+let number = 10;
+
+function generateRandomNumber(max){
+    return Math.floor(Math.random() * max);
+}
+
+let result = generateRandomNumber(number);
+console.log(result);
+
+;;;;;;;;;;;;;;;; ACTIONS NEED SEMICOLONS ;;;;;;;;;;;;;
+
+//----------------------------------------------------------------
+
+using a while loop ("notSatisfied")
+
+prompt for a choice
+
+check for each element of trip (4)
+or "all"
+or Satisfied
+or bad input
+(if/else  or switch/case)
+
